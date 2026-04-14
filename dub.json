@@ -1,0 +1,16 @@
+{
+    "name": "kytschi-file-vault",
+    "description": "Kytschi's File Vault",
+    "authors": ["Kytschi"],
+    "license": "proprietary",
+    "targetType": "executable",
+    "targetName": "kytschi-file-vault",
+    "sourcePaths": ["source"],
+    "importPaths": ["source"],
+    "dependencies": {
+        "dqt:widgets": "~>6.4.2"
+    },
+    "libs-linux": ["sqlite3"],
+    "libs-windows": ["sqlite3"],
+    "libs-osx": ["sqlite3"]
+}
